@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full-Stack Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Full-Stack Developer</h1>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="dark-mode-toggle">🌙 Dark Mode</button>
+        </nav>
+    </header>
+
+    <section id="about" class="fade-in">
+        <img src="assets/profile-pic.png" alt="Profile Picture" class="profile-pic">
+        <h2>Hello, I'm [Your Name]</h2>
+        <p>I'm a passionate Full-Stack Developer experienced in building web applications using modern technologies like React, Node.js, MongoDB, and Python.</p>
+    </section>
+
+    <section id="skills" class="fade-in">
+        <h2>Skills</h2>
+        <div class="skill-set">
+            <div class="skill">
+                <h3>Frontend</h3>
+                <p>HTML, CSS, JavaScript, React, TailwindCSS</p>
+            </div>
+            <div class="skill">
+                <h3>Backend</h3>
+                <p>Node.js, Express.js, Python, Django, REST APIs</p>
+            </div>
+            <div class="skill">
+                <h3>Database</h3>
+                <p>MongoDB, PostgreSQL, MySQL</p>
+            </div>
+            <div class="skill">
+                <h3>Dev Tools</h3>
+                <p>Git, GitHub, Docker, Postman, VS Code</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="fade-in">
+        <h2>Projects</h2>
+        <div class="project-list">
+            <div class="project" data-project="1">
+                <img src="assets/project1.png" alt="Project 1">
+                <h3>Project Name 1</h3>
+                <p>Short description of the project.</p>
+                <a href="#" class="view-project">View Repo</a>
+            </div>
+            <div class="project" data-project="2">
+                <img src="assets/project2.png" alt="Project 2">
+                <h3>Project Name 2</h3>
+                <p>Short description of the project.</p>
+                <a href="#" class="view-project">View Repo</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="fade-in">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:admin@webveltrix.com">admin@webveltrix.com</a></p>
+        <p>LinkedIn: <a href="#">LinkedIn</a></p>
+        <p>GitHub: <a href="#">GitHub</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Veltrix. All rights reserved.</p>
+    </footer>
+
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modal-title">Full Stack developer</h2>
+            <p id="modal-description">Web developer.</p>
+            <p><strong>Tech Stack:</strong> React, Node.js, MongoDB</p>
+            <a id="modal-link" href="#" target="_blank">View Repo</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
