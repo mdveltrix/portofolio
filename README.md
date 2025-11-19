@@ -1,3 +1,5 @@
+Visit my webpage webveltrix.com for more info.
+
 Full-Stack Developer with a keen interest in building innovative, user-centric web applications. Over the years, I've honed my skills across both the front-end and back-end, allowing me to create seamless and scalable solutions that solve real-world problems.
 
 I specialize in working with JavaScript frameworks like React for building interactive and dynamic user interfaces, as well as Node.js for creating powerful backend services. My experience extends to working with MongoDB, SQL databases, and integrating RESTful APIs to ensure data flow between applications is smooth and efficient.
@@ -35,3 +37,5 @@ Example Bio for You to Use in Your Portfolio:
 "Hello, I'm John Doe, a Full-Stack Developer with a deep passion for creating high-quality web applications. With expertise in React, Node.js, and MongoDB, I specialize in building fast, scalable, and secure applications. My goal is to solve real-world problems through technology while delivering seamless user experiences. From front-end development to back-end systems, I thrive on challenges and continuously push myself to stay at the cutting edge of development trends. Let's build something amazing together!"
 
 Feel free to personalize it further based on your specific expertise, projects, and the technologies you're most comfortable working with! If you need help tweaking any section, let me know!
+
+admin@webveltrix.com 
